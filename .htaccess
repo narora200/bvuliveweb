@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^104.199.173.74/cloud$ [NC,OR]
+
+RewriteCond %{REQUEST_URI} !bvulive
+RewriteRule (.*) bvulive/$1 [L]
+DirectoryIndex land.php
+
+
