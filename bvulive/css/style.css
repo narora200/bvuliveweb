@@ -1,0 +1,195 @@
+/* Plugin css----Index page */
+
+#images .item img{
+    
+    
+   min-height: 250px;
+    
+}
+
+
+#comments .owl-item div{
+  padding:5px;
+  min-height:320px;
+}
+#comments .owl-item img{
+  display: block;
+  width: 100%;
+  min-height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* Plugin css----Display events page*/
+
+#upcoming-events .owl-item div{
+  padding:5px;
+}
+#upcoming-events .owl-item img{
+  display: block;
+  width: 100%;
+  
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#past-events .owl-item div{
+  padding:5px;
+}
+#past-events .owl-item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* Plugin css----Info events page*/
+#d_reviews .item{
+  background: #4EC8CD;
+  padding: 30px 15px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+
+
+/* Custom css */
+*{
+font-family: 'Noto Sans', sans-serif;
+}
+.contain{
+  height:auto;
+}
+.second{
+	
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  
+  margin: 0; 
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+/* display.php styling*/
+.postertitle{
+  font-weight:800;
+  font-size:2em;
+  
+}
+.dthead{
+  font-weight:800;
+  font-size:1.8em;
+  color:hotpink;
+}
+.dtcontent{
+  font-weight:600;
+  font-size:1.5em;
+  color: grey;
+}
+.linkhead{
+  font-weight:800;
+  font-size:1.8em;
+  color:hotpink;
+}
+.linkcontent{
+  font-weight:600;
+  
+  color: grey;
+}
+.infohead{
+  font-weight:800;
+  font-size:1.8em;
+  color:hotpink;
+}
+
+
+/* info.php styling */
+.infotitle{
+  font-weight:800;
+  font-size:1.8em;
+  color:hotpink;
+  margin:30px 0px 0px 0px;
+}
+.infocontent{
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  font-size:1.4em;
+  color:gray;
+}
+
+/* addevent.php styling*/
+.headings{
+  color:hotpink;
+  font-weight: 800;
+
+}
+
+.contents1{
+  color:#666666;
+
+}
+
+.contents2{
+  color:#666666;
+}
+
+/* global declarations */
+input[type="text"]{
+  color:#cc66ff;
+}
+input[type="number"]{
+  color:#ff0066;
+}
+
+input[type="email"]{
+  color:#ff9933;
+}
+input[type="password"]{
+  color:#fc5555;
+}
+textarea{
+  color:hotpink;
+}
+
+select option{
+  color:hotpink;
+}
+
+div a.blink{
+  color:#fff;
+}
+
+div a.blink:hover{
+  color:#f2d535;
+}
+
+/* Button styling */
+
+input.btn.btn-default{
+
+  border-radius:  0px;
+  background-color: #494ca8;
+  color: #fff;
+  padding: 5px 40px 5px 40px;
+}
+
+input.btn-default:hover{
+
+  color: #000000;
+  background-color: #FFBF00;
+  border-radius : 0px;
+}
+
+

@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([a-zA-Z0-9!@#$%^&*_-]+)$ bvulive/updateprofile.php?u=$1
+RewriteRule ^([a-zA-Z0-9!@#$%^&*_-]+)/$ bvulive/updateprofile.php?u=$1
+
+
+RewriteRule ^einfo/(.*)$ bvulive/info.php?u=$1 [R]
+
+RewriteRule events/admin006/$ bvulive/updateprofile.php?u=$1
+RewriteRule events/admin006$ bvulive/updateprofile.php?u=$1
+
+
+
+
