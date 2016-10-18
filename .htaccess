@@ -1,9 +1,7 @@
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^104.199.173.74/cloud$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.bvulive.in/cloud$ [NC,OR]
 
-RewriteCond %{REQUEST_URI} !bvulive
-RewriteRule (.*) bvulive/$1 [L]
-DirectoryIndex land.php
+
 
 
